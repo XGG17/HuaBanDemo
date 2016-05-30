@@ -21,7 +21,7 @@
 /** 保存所有路径的数组 */
 @property(nonatomic, strong) NSMutableArray *pathArr;
 
-- (void)clear;
-- (void)undo;
+- (void)clear;  // 清除
+- (void)undo;   // 撤销
 
 @end

@@ -84,6 +84,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9132EBB61CFC1F2700F74893 /* DramView */ = {
+			isa = PBXGroup;
+			children = (
+				91441C471CF84DBF001BAF45 /* DrawView.h */,
+				91441C481CF84DBF001BAF45 /* DrawView.m */,
+				91441C4A1CF84E2D001BAF45 /* DrawPath.h */,
+				91441C4B1CF84E2D001BAF45 /* DrawPath.m */,
+			);
+			name = DramView;
+			sourceTree = "<group>";
+		};
 		91441C081CF841E8001BAF45 = {
 			isa = PBXGroup;
 			children = (
@@ -109,10 +120,7 @@
 			children = (
 				91441C171CF841E8001BAF45 /* AppDelegate.h */,
 				91441C181CF841E8001BAF45 /* AppDelegate.m */,
-				91441C471CF84DBF001BAF45 /* DrawView.h */,
-				91441C481CF84DBF001BAF45 /* DrawView.m */,
-				91441C4A1CF84E2D001BAF45 /* DrawPath.h */,
-				91441C4B1CF84E2D001BAF45 /* DrawPath.m */,
+				9132EBB61CFC1F2700F74893 /* DramView */,
 				91441C1A1CF841E8001BAF45 /* ViewController.h */,
 				91441C1B1CF841E8001BAF45 /* ViewController.m */,
 				91441C1D1CF841E8001BAF45 /* Main.storyboard */,
